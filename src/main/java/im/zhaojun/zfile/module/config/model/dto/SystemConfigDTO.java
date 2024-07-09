@@ -167,4 +167,19 @@ public class SystemConfigDTO {
 
     @ApiModelProperty(value = "是否默认记住密码", example = "true")
     private Boolean defaultSavePwd;
+
+    @ApiModelProperty(value = "授权码", example = "授权码")
+    private String authCode;
+
+    @ApiModelProperty(value = "WebDAV 是否启用", example = "false")
+    private String webdavEnable;
+
+    @ApiModelProperty(value = "WebDAV 代理", example = "xxx")
+    private String webdavProxy;
+
+    @ApiModelProperty(value = "WebDAV 用户名", example = "admin")
+    private String webdavUsername;
+
+    @ApiModelProperty(value = "WebDAV 密码", example = "123456")
+    private String webdavPassword;
 }
